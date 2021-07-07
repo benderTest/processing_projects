@@ -1,0 +1,15 @@
+to add to repository:
+
+1.  initialize the repository for git
+    a) change directory to folder you want to use
+    b) git init
+2. add folders for tracking
+    a) you can use git commit -m "/*commit name*/" to see a list of untracked items
+    b) use git add to add folders and files, if you add a folder, all files in that 
+    folder will be tracked
+3. commit the directory, give the commit a name
+    a) git commit -m "/*commit name*/"
+    b) this can be done several times before pushing
+4. push the commited directory when you are done with the changes
+    a) you can use the main branch or start a new branch just by changing the origin
+    b) git push -u origin main //or other origin
